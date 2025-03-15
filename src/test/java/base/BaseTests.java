@@ -96,7 +96,6 @@ public class BaseTests {
 
     public void deleteCookie(){
         driver.manage().deleteCookieNamed("optimizelyBuckets");
-
     }
 
     public Cookie getCookie(){
@@ -111,7 +110,5 @@ public class BaseTests {
         BaseTests tests = new BaseTests();
         tests.setUp();
     }
-
-
 
 }
